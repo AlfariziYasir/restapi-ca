@@ -1,0 +1,14 @@
+APP_PORT: 8080
+DB_DRIVER: "postgres"
+DB_USER: "postgres"
+DB_PASS: "postgres"
+DB_NAME: "tes_alterra"
+DB_HOST: "localhost"
+DB_PORT: 5432
+REDIS_HOST: "127.0.0.1"
+REDIS_PORT: 6379
+REDIS_DB: 0
+JWT_SECRET_KEY: "secret_key"
+JWT_REFRESH_KEY: "refresh_key"
+DATABASE_SCHEMA: "user_management"
+WHITELISTHOST: "http://localhost:8080,http://localhost:3000,http://localhost:8081"
